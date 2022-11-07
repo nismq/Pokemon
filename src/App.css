@@ -1,38 +1,148 @@
-.App {
+body {
+  background-color: #f5deb3;
+}
+.types {
+  background-color: darkgrey;
+  width: 300px;
+  margin: 0px;
+  padding: 5px 0px;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.abilities{
+  width: 300px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+#fairy {
+  background-color: #ffafbc;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+#grass {
+  background-color: #42be40;
 }
 
-.App-link {
-  color: #61dafb;
+#poison {
+  background-color: #802ecc;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#fire {
+  background-color: #ff8419;
+}
+
+#flying {
+  background-color: #c387ea;
+}
+
+#water {
+  background-color: #3f88fd;
+}
+
+#bug {
+  background-color: #719d33;
+}
+
+#normal {
+  background-color: #c3c696;
+}
+
+#fighting {
+  background-color: #e63333;
+}
+
+#electric {
+  background-color: #dec83e;
+}
+
+#ground {
+  background-color: #d0cb64;
+}
+
+#psychic {
+  background-color: #ea6f83;
+}
+
+#rock {
+  background-color: #9f914d;
+}
+
+#ice {
+  background-color: #aadeef;
+}
+
+#dragon {
+  background-color: #5824bf;
+}
+
+#ghost {
+  background-color: #51458a;
+}
+
+#dark {
+  background-color: #46341d;
+}
+
+#steel {
+  background-color: #99abb3;
+}
+
+
+td {
+  background-color: #f5deb3;
+  height: 25px;
+  text-align: center;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+#header {
+  margin: 0;
+  padding-top: 20px;
+  width: 100%;
+  text-align: center;
+  height: 80px;
+}
+
+
+table {
+  background-color: #e2c692;
+  padding: 20px;
+  margin: auto;
+  width: 300px;
+  border-radius: 7px;
+  height: 430px;
+}
+
+#container {
+  margin: 0 auto;
+  width: 300px;
+  text-align: center;
+  
+}
+
+label {
+  display: block;
+  
+  padding: 5px;
+}
+
+input {
+  display: inline-block;
+  margin: 5px auto;
+  border: #494949 solid 1px;
+  background-color: #f5deb3;
+  border-radius: 7px;
+}
+
+#footer {
+  background-color: #e2c692;
+  text-align: center;
+  margin: 50px auto;
+  width: 300px;
+  padding: 10px;
+  border-radius: 7px;
+}
+
+#randomButton {
+  margin: 20px auto;
+  height: 30px;
 }
