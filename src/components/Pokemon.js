@@ -32,7 +32,6 @@ export default function Pokemon({index, random}) {
 
         axios.get(address)
             .then((response) => {
-                console.log(response.data)
                 setPokeId(response.data.id)
                 setTypes(response.data.types)
                 setName(response.data.name)
@@ -52,7 +51,6 @@ export default function Pokemon({index, random}) {
         fetch(imgback, { method: 'HEAD' })
             .then(res => {
                 if (res.ok) {
-                    console.log('Image exists.');
                 } else {
                     setImgback(null)
                 }
